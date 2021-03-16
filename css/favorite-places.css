@@ -1,9 +1,26 @@
+@font-face {
+  font-family: "Brahmin";
+  src: url("../fonts/Brahmin-0r.otf") format("opentype");
+  font-weight: 10;
+}
+
+@font-face {
+  font-family: "Brahmin";
+  src: url("../fonts/Brahmin-3r.otf") format("opentype");
+  font-weight: 300;
+}
+
 img {
   width: 67vw;
   margin: auto;
   display: block;
 }
 
+h1, h2 {
+  font-family: "Brahmin";
+}
+
 h2 {
   text-align: center;
+  font-weight: 300;
 }
